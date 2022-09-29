@@ -229,6 +229,3 @@ public static class PingResult {
         }
     }
 ```
-
-编码不易欢迎打赏
-![zfb](https://github.com/AitGo/ping/blob/main/zfb.png) 
