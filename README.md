@@ -1,5 +1,6 @@
 Android实时质量检测
-[CSDN](https://blog.csdn.net/ly4900/article/details/127091931?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22127091931%22%2C%22source%22%3A%22ly4900%22%7D)
+
+## 传送门：[CSDN](https://blog.csdn.net/ly4900/article/details/127091931?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22127091931%22%2C%22source%22%3A%22ly4900%22%7D)
 # 原理
 
 使用`ping -n -i %f -c %d %s`命令实现网络质量检测，具体参数如下：
@@ -8,7 +9,7 @@ Android实时质量检测
 -c 路由隔离仓标识符
 
 如图ping后返回的最后一行可以看到min/avg/max/stddev，我们主要从avg来判断当前的网络质量
-![cmd](https://github.com/AitGo/cmd.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f90ebb45f0b54831b76adb886855adbf.png#pic_center)
 ## 使用
 
 1. 通过Ping.startSniffer方法开始调用,urls规则可以看Ping里面的getIp方法，从第7位开始到下一个":"截至，获取具体域名来ping
